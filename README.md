@@ -11,7 +11,7 @@
 
 ### Association
 - has_many :tasks
-- has_many :messages
+- has_many :commnets
 
 
 
@@ -27,7 +27,7 @@
 - belongs_to :comment
 - has_many :tasks, through: :task_tags
 - has_many :task_tags
-- has_many :messages
+- has_many :commnets
 
 
 
@@ -41,7 +41,7 @@
 ### Association
 - has_many :tasks, through: :task_tags
 - has_many :task_tags
-- has_many :messages
+- has_many :comments
 
 
 
